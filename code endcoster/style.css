@@ -1,0 +1,21 @@
+.pulse-anim {
+    width: 70px;
+    height: 70px;
+    background-image: url(logo.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    box-shadow: 0 0 0 0 rgb(0, 255, 132);
+    animation: pulse 1.3s infinite;
+    object-fit: cover;
+    margin-top: 40px;
+    float: right;
+    margin-right: 40px;
+}
+
+@keyframes pulse {
+    to {
+        box-shadow: 0 0 0 10px rgb(10, 203, 3);
+
+    }
+}
